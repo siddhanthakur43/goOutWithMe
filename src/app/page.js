@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
-    const [position, setPosition] = useState({ left: 780, top: 617 });
+    const [position, setPosition] = useState({ left: 780, top: 620 });
 
     const handleHover = () => {
       const x = Math.random() * (window.innerWidth - 85);
